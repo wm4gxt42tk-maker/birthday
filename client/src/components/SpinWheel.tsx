@@ -4,9 +4,9 @@ import { Sparkles } from "lucide-react";
 
 export function SpinWheel() {
   const prizes = [
-    "Kiss Coupon", "Love Letter", "Movie Night", 
-    "Massage", "Passionate Kiss", "Chocolate Box", 
-    "A Big Hug", "Date Night"
+    "Movie Night", "Gym on Video Call", "Late Night Call", 
+    "Truth or Dare", "Virtual Date", "Digital Gift", 
+    "A Long Letter", "Secret Message"
   ];
 
   const [isSpinning, setIsSpinning] = useState(false);
