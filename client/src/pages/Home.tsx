@@ -7,12 +7,16 @@ import { ChatAnalysis } from "@/components/ChatAnalysis";
 import { SpinWheel } from "@/components/SpinWheel";
 import { Songs } from "@/components/Songs";
 import { LoveList } from "@/components/LoveList";
+import { BirthdayWishes } from "@/components/BirthdayWishes";
+import { Personality } from "@/components/Personality";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-background selection:bg-primary/20">
       <Hero />
+      <BirthdayWishes />
       <TimeCounter />
+      <Personality />
       <Gallery />
       <LoveList />
       <ChatAnalysis />
