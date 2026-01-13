@@ -9,7 +9,7 @@ export function ChatAnalysis() {
     { icon: TrendingUp, label: "Top Word", value: "love", sub: "5,719 uses" }
   ];
 
-  const emojis = ["😭", "🥹", "❤️", "😘", "💋", "😌", "😩", "😫"];
+  const emojis = ["😍", "😘", "🫂", "❤️", "🥹", "🤣", "🤪", "💋"];
 
   return (
     <section className="py-24 px-4 bg-white">
