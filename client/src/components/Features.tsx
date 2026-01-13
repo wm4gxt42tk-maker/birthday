@@ -4,8 +4,8 @@ import { Star, Heart, Camera, MapPin } from "lucide-react";
 const features = [
   {
     icon: Star,
-    title: "23 Years of Perfection",
-    description: "Celebrating every moment that led you to this beautiful milestone."
+    title: "Since 2020",
+    description: "From our first hello years ago to our daily conversations now."
   },
   {
     icon: Heart,
@@ -19,8 +19,8 @@ const features = [
   },
   {
     icon: MapPin,
-    title: "Always By Your Side",
-    description: "Wherever life takes you this year, know that I'm right there with you."
+    title: "Miles Apart, Hearts Together",
+    description: "Distance is just a test to see how far love can travel. We're winning."
   }
 ];
 

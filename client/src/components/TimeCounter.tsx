@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import { Calendar, Clock, Heart } from "lucide-react";
+import { Heart } from "lucide-react";
 
 export function TimeCounter() {
   const [timeLeft, setTimeLeft] = useState({
@@ -13,8 +13,8 @@ export function TimeCounter() {
   });
 
   useEffect(() => {
-    // Setting a mock start date (approx 3 years ago as per the source)
-    const startDate = new Date("2022-11-10T00:00:00");
+    // Relationship started on Sept 1st, 2025
+    const startDate = new Date("2025-09-01T00:00:00");
     
     const timer = setInterval(() => {
       const now = new Date();
@@ -52,7 +52,7 @@ export function TimeCounter() {
         >
           <Heart className="mx-auto text-primary mb-6 animate-pulse" size={48} fill="currentColor" />
           <h2 className="text-4xl md:text-5xl font-serif mb-12">Time Together</h2>
-          <p className="text-lg text-muted-foreground mb-12">Every second with you is a gift.</p>
+          <p className="text-lg text-muted-foreground mb-12">Every second since September 1st, 2025, has been a gift.</p>
           
           <div className="grid grid-cols-2 md:grid-cols-6 gap-4">
             {stats.map((stat) => (

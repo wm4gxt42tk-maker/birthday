@@ -24,11 +24,11 @@ export function Letter() {
              <p className="font-display text-4xl mb-8 text-foreground">My Dearest One,</p>
              
              <p>
-               Happy 23rd Birthday! I wanted to create something special for you, something that lasts longer than flowers and tastes sweeter than cake. This little corner of the internet is dedicated entirely to you.
+               Happy 23rd Birthday! Even though we're miles apart right now, I wanted to create something special for you—a digital bridge between us. Since we first talked back in 2020 and really found each other again this past spring, every day has been a countdown to when we can finally be in the same room.
              </p>
              
              <p>
-               Watching you grow into the person you are today has been the greatest privilege of my life. Your kindness, your laughter, and the way you light up every room you enter—it all makes me fall in love with you over and over again.
+               Starting our relationship on September 1st, 2025, was the best decision I've ever made. Watching you grow into the person you are today has been the greatest privilege of my life. Your kindness, your laughter, and the way you light up my screen—it all makes me fall in love with you over and over again.
              </p>
              
              <p>
