@@ -40,8 +40,6 @@ export default function Home() {
       <Gallery />
       <LoveList />
       <ChatAnalysis />
-      <Letter />
-      <SpinWheel />
       <Songs />
       <Features />
       
