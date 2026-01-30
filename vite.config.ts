@@ -6,6 +6,7 @@ import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 import { metaImagesPlugin } from "./vite-plugin-meta-images";
 
 export default defineConfig({
+  base: '/biditbirthday/',
   plugins: [
     react(),
     runtimeErrorOverlay(),
@@ -41,6 +42,9 @@ export default defineConfig({
     emptyOutDir: true,
   },
   server: {
+    hmr: {
+      overlay: false,
+    },
     host: "0.0.0.0",
     allowedHosts: true,
     fs: {
