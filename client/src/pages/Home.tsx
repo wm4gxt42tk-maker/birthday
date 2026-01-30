@@ -16,6 +16,7 @@ export default function Home() {
     <main className="min-h-screen bg-background selection:bg-primary/20">
       <Hero />
       <BirthdayWishes />
+      <Letter />
       <Personality />
       <TimeCounter />
       
